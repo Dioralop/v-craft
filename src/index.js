@@ -3,6 +3,7 @@ import Canvas from '@/components/Canvas.vue';
 import Editor from '@/components/Editor.vue';
 import Frame from '@/components/Frame.vue';
 import Node from '@/components/Node.vue';
+import CoreNode from '@/core/Node.js';
 import settingMixin from '@/components/settingMixin';
 import createNodeFromVNode from '@/utils/createNodeFromVNode.js';
 
@@ -14,4 +15,5 @@ export {
   Node,
   settingMixin,
   createNodeFromVNode,
+  CoreNode
 };
